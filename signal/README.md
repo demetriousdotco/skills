@@ -4,7 +4,7 @@
 
 AI made everyone louder; nobody got clearer. Long emails, long docs, 15-minute Looms — generated in seconds, skimmed in less. If your work moves through other people — client and agency, manager and team, consultant and stakeholder — the noise is your whole day. SIGNAL stands at the three points where it wins.
 
-**Demos + full story:** [the SIGNAL page](https://demetrious.co) <!-- STOREFRONT_URL -->
+**Demos + full story:** [the SIGNAL page](https://skills.demetrious.co) <!-- STOREFRONT_URL: append the per-suite path once the GHL pages are published -->
 
 ---
 
