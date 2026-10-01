@@ -4,7 +4,7 @@
 
 Everyone uses AI to produce *more* — more emails, more documents, more Looms. Almost nobody uses it to make any of that *clearer*. This library is the counter-move: skills that kill noise instead of adding to it.
 
-Built by [Demetrious Reed](https://demetrious.co) — thinker & maker. Free, no gates, no tracking. Every skill is plain, readable markdown: open any folder here and read exactly what your AI will do before you install it.
+Built by [Demetrious Reed](https://demetrious.co) — thinker & maker. Browse the whole library on the web: [demetrious-consulting.vercel.app/skills](https://demetrious-consulting.vercel.app/skills). Free, no gates, no tracking. Every skill is plain, readable markdown: open any folder here and read exactly what your AI will do before you install it.
 
 ---
 
@@ -20,7 +20,7 @@ Three skills standing at the three points where noise wins:
 | [`dco-bluf-briefer`](signal/dco-bluf-briefer/) | You **receive** | Reads the 15,000 words so you get 300 — any pile becomes a one-screen brief, verdict first | [.skill](https://github.com/demetriousdotco/skills/releases/latest/download/dco-bluf-briefer.skill) |
 | [`dco-bluf-sitrep`](signal/dco-bluf-sitrep/) | It's a **mess** | Rebuilds an out-of-hand situation into a log of truth — and hands you a plan | [.skill](https://github.com/demetriousdotco/skills/releases/latest/download/dco-bluf-sitrep.skill) |
 
-**See them demonstrated:** [the SIGNAL page](https://skills.demetrious.co) <!-- STOREFRONT_URL: append the per-suite path once the GHL pages are published -->
+**See them demonstrated:** [the SIGNAL page](https://demetrious-consulting.vercel.app/skills/signal)
 
 ### RUSSIAN DOLLS — turn a scoped project into the hands doing it → [`/russian-dolls`](russian-dolls/)
 
@@ -33,9 +33,21 @@ Four skills that descend from "the client said yes" to one person's packet, one 
 | [`dco-vera-steps`](russian-dolls/dco-vera-steps/) | 3 · the **steps** | Turns chunks into executable steps, grouped into sprints | [.skill](https://github.com/demetriousdotco/skills/releases/latest/download/dco-vera-steps.skill) |
 | [`dco-zoya-packets`](russian-dolls/dco-zoya-packets/) | 4 · the **packets** | Splits it into a standalone packet per person, with overlap contracts | [.skill](https://github.com/demetriousdotco/skills/releases/latest/download/dco-zoya-packets.skill) |
 
-**See them demonstrated:** [the Russian Dolls page](https://skills.demetrious.co) <!-- STOREFRONT_URL: append the per-suite path once the GHL pages are published -->
+**See them demonstrated:** [the Russian Dolls page](https://demetrious-consulting.vercel.app/skills/russian-dolls)
 
 *More suites coming. Same theme, always: knowledge work, less noise.*
+
+---
+
+## Repo layout
+
+```
+signal/            the SIGNAL suite (3 skills)
+russian-dolls/     the RUSSIAN DOLLS suite (4 skills)
+docs/              install, FAQ, philosophy, adding a skill
+```
+
+Every skill is a folder named `dco-<name>/` with a `SKILL.md` and an optional `references/` folder. Releases attach one `.skill` file per skill. Adding a new one: [docs/adding-a-skill.md](docs/adding-a-skill.md).
 
 ---
 
