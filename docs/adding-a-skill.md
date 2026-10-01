@@ -31,4 +31,10 @@ gh release create vX.Y.Z *.skill --title "Library vX.Y" --notes "What's new"
 
 ## 4. Put it on the website
 
-The site lists skills from one registry file: `src/lib/skills.ts` in the website repo ([demetriousdotco/demetrious-consulting](https://demetrious-consulting.vercel.app/skills) project). Add the skill (or a new suite) there and it appears on the Skills page with its download and source links. A suite that deserves its own demo page gets a page under `src/app/skills/<suite>/`.
+The website's Skills page is a gallery of **suites** (packages of skills), like articles: a hero image, a short pitch, and a click through to that suite's landing page. It does not list every individual skill, so it scales to any number of skills.
+
+Everything is driven by one registry file in the website repo: `src/lib/skills.ts`.
+
+- **A new skill in an existing suite:** add it to that suite's `skills` list. It appears on the suite's landing page with download and source links.
+- **A new suite:** add a suite entry (slug, name, tagline, blurb, hero `image`, `date`, and its `skills`). It automatically gets a gallery card on `/skills` and a generated landing page at `/skills/<slug>`.
+- **A suite that deserves a custom demo page** (like SIGNAL and RUSSIAN DOLLS): build the page under `src/app/skills/<slug>/` and set `page: "/skills/<slug>"` on the suite so the card links to it.
