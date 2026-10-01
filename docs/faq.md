@@ -10,7 +10,7 @@ The skills are free. You need a Claude account with code execution enabled — t
 No. Skills run inside your own Claude. Nothing phones home, there's no telemetry, and the source of every skill is in this repo — read every line before you run it.
 
 **Can I share these?**
-Yes — forward the `.skill` file, this repo, or the pages at [demetrious-consulting.vercel.app/skills](https://demetrious-consulting.vercel.app/skills). Skills are per-account, so each person installs their own copy. MIT licensed.
+Yes — forward the `.skill` file, this repo, or the pages at [demetrious.co/skills](https://demetrious.co/skills). Skills are per-account, so each person installs their own copy. MIT licensed.
 
 **Can I use these at work / commercially?**
 Yes. MIT means yes.

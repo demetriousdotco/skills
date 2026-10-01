@@ -4,7 +4,7 @@
 
 The client said yes. Now what? The gap right after "yes" is where projects quietly rot: nobody has the actual *shape* of the work, so nobody can sequence it, so nobody knows what to hand to whom. Russian Dolls descends that gap in four honest levels — each doll does one altitude and refuses the next one down.
 
-**Demos + full story:** [the Russian Dolls page](https://demetrious-consulting.vercel.app/skills/russian-dolls)
+**Demos + full story:** [the Russian Dolls page](https://demetrious.co/skills/russian-dolls)
 
 ---
 
